@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Highlightr",
     platforms: [
-      .macOS(.v10_15), .iOS(.v13), .visionOS(.v1), .watchOS(.v7), .tvOS(.v12)
+      .macOS(.v10_13), .iOS(.v13), .visionOS(.v1), .watchOS(.v7), .tvOS(.v12)
     ],
     products: [
         .library(
